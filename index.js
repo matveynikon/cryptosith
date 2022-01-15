@@ -1,6 +1,3 @@
-// Get User Tweet timeline by user ID
-// https://developer.twitter.com/en/docs/twitter-api/tweets/timelines/quick-start
-
 const needle = require('needle');
 const express = require('express')
 const fs = require('fs')
@@ -51,4 +48,3 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`)
 })
-
